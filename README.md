@@ -1,15 +1,17 @@
 # Teensy-Arcade-Controller
 Teensy 2.0 C script for an arcade controller
 
-# Boutons
+## Boutons
+```
 PORTF0-1    UP-DOWN
 PORTF4-5    LEFT-RIGHT
 PORTB0-1    BTN1-2
 PORTB3-6    BTN3-6
 PORTD0      Player one
 PORTD2      NewCoin
+```
 
-# Install
+## Install
 1. Install [Teensy Loader](https://www.pjrc.com/teensy/loader_linux.html)
 2. Edit the Makefile for your teensy
 ```
